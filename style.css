@@ -5,23 +5,25 @@
     font-family: "Montserrat", sans-serif;
 }
 
-body {
+ body { /*Acá se establecen los parametros básicos de la pagina  */
     width: 100vw;
     height: 100vh;
     background: rgb(42,39,101);
     background: rgb(42,39,101);
     background: radial-gradient(circle, rgba(42,39,101,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex; 
+    justify-content: center; /*Alinea Horizontal*/
+    align-items: center;  /*Alinea Vertical*/
 }
+
 .caja {
   
-    background-color: white;
+    background-color: rgba(255, 255, 255, 255) ;
     width: 500px;
     height: 800px;
     border-radius:50px;
-    display: flex;
+    border: 2px blue solid;
+    display: flex; 
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -36,19 +38,131 @@ body {
 }
 
 .contenedor__U{
-    margin: 1rem;
+    margin: 2rem;
+    
+}
+
+.contenedor__U--input{
+background-color: rgba(255, 255, 255, 0);
+width: 400px;
+height: 50px;
+font-size: 15px;
+font-style: oblique;
+border: none;
+border-bottom: 0.5px solid black;
+padding-left: 30px;
+margin-bottom: 50px;
+
 }
 
 .contenedor__P{
-    margin: 1rem;
+    margin: 2rem;
 }
 
-.login{
+.contenedor__P--input{
+    background-color: rgba(255, 255, 255, 0);
+    width: 400px;
+    height: 50px;
+    font-size: 15px;
+    font-style: oblique;
+    border: none;
+    border-bottom: 0.5px solid black;
+    padding-left: 30px;
+
+}
+
+.Login{
     margin: 1rem;
-    padding: 0.5rem 8rem;
+    font-size: 40px;
+    
 }
 
 .button{
     margin: 1rem;
     padding: 0.5rem 8rem;
+    background: rgb(42,39,101);
+    background: rgb(42,39,101);
+    background: radial-gradient(circle, rgba(42,39,101,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius:50px;
+    color: white;
+    border: blue;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.person{
+display: block; 
+margin-left: 5px;
+margin-top: -85px;
+    width: 20px;
+height: 20px;
+}
+
+.lock{
+    display: block; 
+    margin-left: 5px;
+    margin-top: -35px;
+    width: 20px;
+    height: 20px;
+    }
+
+.text{
+    padding: 0.5rem;
+}
+
+.text__OLV{
+    text-align: end;
+    text-decoration: underline;
+    margin-right: 2rem;
+
+}
+
+.check{
+    text-align: end;
+    text-decoration: underline;
+    margin-left: 2rem;
+    margin-top: -200px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row; 
+    margin-bottom: 0.5rem;
+}
+
+.icons__FB{
+width: 50px;
+height: 50px;
+margin:0.5rem;
+
+}
+
+.icons__X{
+    width: 45px;
+    height: 45px;
+    margin:0.5rem;
+}
+
+.icons__G{
+    width: 45px;
+    height: 45px;
+    margin:0.5rem;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;  
+}
+
+.text__dos{
+ margin-top: 1rem;
 }

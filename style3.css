@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body { /*Acá se establecen los parametros básicos de la pagina  */
+    width: 100vw;
+    height: 100vh;
+    background: rgb(42,39,101);
+    background: rgb(42,39,101);
+    background: radial-gradient(circle, rgba(42,39,101,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    display: flex; 
+    justify-content: center; /*Alinea Horizontal*/
+    align-items: center;  /*Alinea Vertical*/
+}
+
+.caja {
+  
+    background-color: rgba(255, 255, 255, 255) ;
+    width: 500px;
+    height: 800px;
+    border-radius:50px;
+    border: 2px blue solid;
+    display: flex; 
+    align-items: center;
+    justify-content: top;
+    flex-direction: column;
+
+}
+
+.Login{
+margin-top: 250px;
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+.button{
+    margin: 0.5rem;
+    padding: 0.5rem 2rem;
+    background: rgb(42,39,101);
+    background: rgb(42,39,101);
+    background: radial-gradient(circle, rgba(42,39,101,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius:50px;
+    color: white;
+    border: blue;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.btn{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+}

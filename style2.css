@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body { /*Acá se establecen los parametros básicos de la pagina  */
+    width: 100vw;
+    height: 100vh;
+    background: rgb(42,39,101);
+    background: rgb(42,39,101);
+    background: radial-gradient(circle, rgba(42,39,101,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    display: flex; 
+    justify-content: center; /*Alinea Horizontal*/
+    align-items: center;  /*Alinea Vertical*/
+}
+
+.cuadradoRegistro {
+
+    background-color: white ;
+    width: 500px;
+    height: 800px;
+    border-radius:40px;
+
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cuadradoImagen {
+
+    background-image: url(https://st2.depositphotos.com/2885805/5385/v/450/depositphotos_53850501-stock-illustration-business-people-puzzle.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 800px;
+    border-radius:40px;
+
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.perfil{
+    width: 200px;
+    height: 200px;
+}
+
+.login{
+    margin: 1.5rem;
+}
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+.contenedor__C{
+    margin: 0.5rem;
+}
+
+.contenedor__C--input{
+    width: 400px;
+    height: 50px;
+    font-size: 15px;
+    font-style: oblique;
+    border: none;
+    border-bottom: 0.5px solid black;
+    padding-left: 30px;
+
+}
+
+.contenedor__U{
+    margin: 1.5rem;
+    
+}
+
+.contenedor__U--input{
+width: 400px;
+height: 50px;
+font-size: 15px;
+font-style: oblique;
+border: none;
+border-bottom: 0.5px solid black;
+padding-left: 30px;
+
+}
+
+.contenedor__P{
+    margin: 1.5rem;
+}
+
+.contenedor__P--input{
+    width: 400px;
+    height: 50px;
+    font-size: 15px;
+    font-style: oblique;
+    border: none;
+    border-bottom: 0.5px solid black;
+    padding-left: 30px;
+
+}
+
+.person{
+    display: block; 
+    margin-left: 5px;
+    margin-top: -35px;
+    width: 20px;
+    height: 20px;
+
+    }
+
+    .lock{
+        display: block; 
+        margin-left: 5px;
+        margin-top: -35px;
+        width: 20px;
+        height: 20px;
+        }
+
+    .email{
+        display: block; 
+        margin-left: 5px;
+        margin-top: -35px;
+        width: 20px;
+        height: 20px;
+        }   
+
+        .button{
+            margin: 0.5rem;
+            padding: 0.5rem 2rem;
+            background: rgb(42,39,101);
+            background: rgb(42,39,101);
+            background: radial-gradient(circle, rgba(42,39,101,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+            border-radius:50px;
+            color: white;
+            border: blue;
+            font-size: 20px;
+            font-weight: bolder;
+        }
+        .btn{
+            display: flex;
+            align-items: center;
+            justify-content:center;
+
+        }
+
+        
+
+        
